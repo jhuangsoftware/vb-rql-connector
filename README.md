@@ -5,6 +5,7 @@ All version rql connector wrriten in VB
 
 Usage
 =====
+```
 <!-- #include file="VbRqlConnector.asp" -->
 
 <%
@@ -21,6 +22,7 @@ oVbRqlConnector.SendRql("###Your RQL HERE###")
 
 'Destroy object
 
-Set oGreeting = nothing
+Set oVbRqlConnector = nothing
 
 %>
+```
