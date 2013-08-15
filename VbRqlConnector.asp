@@ -4,7 +4,7 @@
 	Private Const WebService11Url = "http://localhost/CMS/WebService/RqlWebService.svc"
 
 	Class VbRqlConnector
-		Private Function InitializeConnectionType()
+		Public Function InitializeConnectionType()
 			If(GetConnectionType() = "") Then
 				If(TestConnection(WebService11Url) = "OK") Then
 					SetConnectionType(WebService11)
